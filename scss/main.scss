@@ -1,0 +1,277 @@
+// Variables
+$primary-color: #5368df;
+$secondary-color: #f98e5d;
+$font-family: 'Poppins', sans-serif;
+$breakpoint-mobile: 768px; // Punto de quiebre para dispositivos móviles
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+header .login-btn {
+  background-color: #f25f3a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.hero .text {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero .btn-group a {
+  margin-right: 10px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero .btn-group .btn-primary {
+  background-color: #5368df;
+  color: #fff;
+}
+
+.hero .btn-group .btn-secondary {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.features {
+  text-align: center;
+  padding: 50px;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.features p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.features .tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.features .tabs a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.features .tabs a.active {
+  color: #f25f3a;
+  border-bottom: 2px solid #f25f3a;
+}
+
+.bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.bookmark .text {
+  max-width: 50%;
+}
+
+.bookmark h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.bookmark p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.bookmark .btn {
+  background-color: #5368df;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download {
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.download h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.download p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.download .cards {
+  display: flex;
+  justify-content: center;
+}
+
+.download .card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.download .card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.download .card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.download .card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.download .card .btn {
+  background-color: #5368df;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.faq {
+  text-align: center;
+  padding: 50px;
+}
+
+.faq h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.faq p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.faq .questions {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq .question {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.faq .question h3 {
+  font-size: 18px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq .question .icon {
+  font-size: 18px;
+}
+
+.faq .btn {
+  background-color: #5368df;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+
+
+
+@import "./../lib/bootstrap/scss/bootstrap.scss"
